@@ -13,6 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let truckSpeed = 45
+        let lamboSpeed = 120
+        var mySpeed:Int
+        mySpeed = 55
+        
+        if (mySpeed < 70) {
+            println("Keep Cruising")
+        } else {
+            println("Slow down police ahead")
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
